@@ -1,4 +1,4 @@
-# TAP Installation Prerequisites for Client 
+# TAP Installation Prerequisites 
 
 This user guide specifies the required steps by the client, for a successful TAP installation.
 
