@@ -1,0 +1,9 @@
+---
+apiVersion: secretgen.carvel.dev/v1alpha1
+kind: SecretImport
+metadata:
+  name: git-creds
+  annotations:
+    tekton.dev/git-0: ${GIT_SERVER_URL}
+spec:
+  fromNamespace: tap-install

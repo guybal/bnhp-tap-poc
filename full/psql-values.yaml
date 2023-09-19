@@ -1,0 +1,12 @@
+auth:
+  postgresPassword: FILL_ME_IN
+architecture: replication
+replication:
+  synchronousCommit: remote_apply
+  numSynchronousReplicas: 1
+readReplicas:
+  replicaCount: 1
+image:
+  registry: docker.io
+  repository: bitnami/postgresql
+  tag: 15.3.0-debian-11-r0
